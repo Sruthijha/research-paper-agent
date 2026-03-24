@@ -15,10 +15,10 @@ An AI-powered Streamlit app that lets you upload a research paper (PDF), get a s
 
 ## 🛠️ Tech Stack
 
-- [Streamlit](https://streamlit.io) — frontend and deployment
-- [OpenAI API](https://platform.openai.com) — summarization, Q&A, and embeddings
-- [PyMuPDF (fitz)](https://pymupdf.readthedocs.io) — PDF text extraction
-- [NumPy](https://numpy.org) — cosine similarity for semantic search
+- [Streamlit](https://streamlit.io): frontend and deployment
+- [OpenAI API](https://platform.openai.com): summarization, Q&A, and embeddings
+- [PyMuPDF (fitz)](https://pymupdf.readthedocs.io): PDF text extraction
+- [NumPy](https://numpy.org): cosine similarity for semantic search
 
 ---
 
@@ -77,8 +77,8 @@ OPENAI_API_KEY = "your_actual_key_here"
 ## 📌 How It Works
 
 1. Upload a PDF research paper
-2. Click **Generate Summary** — the app extracts text, summarizes it, and computes embeddings for all chunks
-3. Ask questions in the chat — the app retrieves the most relevant chunks using cosine similarity and generates a cited answer
+2. Click **Generate Summary** - the app extracts text, summarizes it, and computes embeddings for all chunks
+3. Ask questions in the chat - the app retrieves the most relevant chunks using cosine similarity and generates a cited answer
 
 ---
 
